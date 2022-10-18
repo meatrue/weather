@@ -332,6 +332,7 @@ const onSearchFormSubmit = (e) => {
 
   if (cityName.trim() !== '') {
     getData(SERVICE.WEATHER, onSuccessGetData, showError, cityName);
+    getData(SERVICE.FORECAST, onSuccessGetForecast, showError, cityName);
     e.target.reset();
   }
 };
