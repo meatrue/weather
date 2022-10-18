@@ -1,12 +1,12 @@
 import { ErrorList, ReadError, ConnectionError, GetDataError } from './error.js';
 
 
-const SERVER_URL = 'http://api.openweathermap.org/data/2.5/';
+const SERVER_URL = 'https://api.openweathermap.org/data/2.5/';
 const SERVICE = {
   WEATHER: 'weather',
   FORECAST: 'forecast'
 };
-const WEATHER_ICON_URL = 'http://openweathermap.org/img/wn/';
+const WEATHER_ICON_URL = 'https://openweathermap.org/img/wn/';
 const WEATHER_ICON_RESOLUTION = '4x';
 const WEATHER_ICON_EXTENSION = 'png';
 const API_KEY = 'f660a2fb1e4bad108d6160b7f58c555f';
