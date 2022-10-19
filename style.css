@@ -122,7 +122,7 @@ body {
   flex-grow: 1;
   box-sizing: border-box;
   display: none;
-  max-height: 346.5px;
+  max-height: 343.5px;
 }
 
 .weather__tabs-block:target {
