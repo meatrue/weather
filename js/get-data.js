@@ -104,7 +104,7 @@ const getData = async (service, onSuccess, onFail, cityName = '', intervalsCount
     } else {
       readError = new ReadError(ErrorList.UNKNOWN_ERROR, error);
     }
-    console.log(readError.cause);
+
     onFail(readError.message);
   }
 };
